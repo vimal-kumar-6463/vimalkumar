@@ -1,0 +1,112 @@
+* , *::before , *::after {
+    box-sizing : border-box;
+    padding : 0;
+    margin : 0;
+}
+
+.container {
+    width : 100vw;
+    height : 100vh;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color : #ffff;
+    font-family :'Dongle', sans-serif;
+    font-size : 2rem;
+}
+
+.innerContainer {
+    display : flex;
+    width : 80%;
+    height : 90%;
+    justify-content : space-around ;
+    align-items : center ;
+    gap : 2.5rem;
+ 
+}
+
+.bioContainer {
+    display : flex;
+    height : 99%;
+    width : 45%;
+    flex-direction: column;
+    justify-content : center ;
+    align-items : center ;
+    gap : 1.25rem;
+
+}
+
+.profilePic {
+   background: url('../assets/profileimg.jpg');
+   height: 31.25rem;
+   width: 21.875rem;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.jobProfile{
+    color : #865DFF;
+}
+
+
+.bioData {
+    text-align : justify;
+}
+
+
+.wrap {
+    display : flex;
+    flex-direction: column;
+    justify-content : center ;
+    align-items : center ;
+}
+
+.CV-Download {
+    height : 50px;
+    width : 120px;
+    text-decoration : none;
+    color : #ffff;
+    border : 2px solid #ffff;
+    border-radius : 5px;
+    font-family :'Dongle', sans-serif;
+    font-style : none;
+    font-size : 1.3rem; 
+    transition : all 0.2s ease-in-out;
+    cursor : pointer;
+    display : grid;
+    place-items: center;
+}
+
+.CV-Download:hover {
+    background-color : #ffff;
+    color : #111872;
+}
+
+
+@media (max-width : 700px ) {
+    .container {
+        height : 100%;
+    }
+
+
+    .innerContainer {
+        flex-direction: column;
+        justify-content : space-around;
+        gap : 0;
+    }
+    
+    .bioContainer {
+        width : 99%;
+    }
+
+    .name , .bioData ,.jobProfile {
+        width : 100%;
+        text-align : center;
+    }
+    
+    .bioData {
+        text-align : justify;
+    }
+ } 

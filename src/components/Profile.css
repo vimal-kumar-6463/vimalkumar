@@ -1,0 +1,34 @@
+* , *::before , *::after {
+    box-sizing : border-box;
+    padding : 0;
+    margin : 0;
+}
+
+
+
+.profile {
+    width : 100vw;
+    height : 100vh;
+    display : flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: 'Anton', sans-serif;
+    font-weight : 100px;
+    text-align : center;
+}
+
+.welcomeMsg {
+    color : #ffffff;
+}
+
+.welcomeName {
+    color : #865DFF;
+}
+
+.jobProfile1 {
+    color : #ffff;
+}
+
+

@@ -1,0 +1,154 @@
+*,*::before ,*::after {
+  box-sizing: border-box;
+  margin : 0 ;
+  padding : 0;
+  background-color: #111827;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-bar {
+  height : 10vh;
+  width : 95vw;
+  margin : auto;
+  display : flex ;
+  justify-content: space-around;
+  align-items: center;
+  font-family :'Dongle', sans-serif;
+  font-size : 1.5rem;
+  position : fixed;
+  top : 0;
+  left : 0;
+  right : 0;
+  background-color: #111827;
+  z-index : 100;
+}
+
+.logo {
+  color : #ffff;
+  cursor : pointer;
+  height : 50px;
+  width : 50px;
+  transition : all 0.3s ease-in-out;
+}
+
+.nav-bar > a {
+  text-decoration: none;
+  color : #000000;
+}
+
+.nav-bar > .nav-bar-nav {
+  display : flex;
+  gap : 2rem;
+  padding : 10px;
+}
+
+.nav-bar > .nav-bar-nav > .nav-item {
+  list-style-type: none;
+  padding : 0 1rem;
+  border-radius : 10px;
+  color : #ffffff;
+  transition : color 0.3s ease-in-out;
+
+}
+
+.nav-bar > .nav-bar-nav > .nav-item:hover ,
+.logo:hover {
+  color : #865DFF;
+
+}
+
+
+
+.nav-links {
+  text-decoration:  none;
+  color : inherit;
+}
+
+.menu {
+  height : 35px;
+  aspect-ratio : 1;
+  background-color : inherit;
+  color : #ffff;
+  border-radius : .5rem;
+  display : none ;
+  justify-content: center;
+  align-items : center;
+  flex-direction : column;
+  gap : 7px;
+  padding : 3px;
+  cursor : pointer;
+  transform : scale(1.5);
+
+}
+
+.menu > .bar {
+  height : 3px;
+  width : 70%;
+  border-radius : 5px;
+  margin-left : 3px;
+  margin-right : 3px;
+
+}
+
+.gap {
+  height : 15vh;
+  width : 100vw;
+}
+
+.Nav-anchors {
+  text-decoration : none;
+  color : inherit;
+  list-style-type: none;
+
+}
+
+@media(max-width : 700px){
+
+.menu {
+  display : flex;
+}
+
+.nav-links{
+  background-color: #273656;
+}
+
+.nav-bar > .nav-bar-nav {
+  width : 80vw;
+  border-radius : 1rem;
+  flex-direction : column;
+  position : absolute;
+  top : 100%;
+  justify-content : space-around;
+  align-items : center;
+  color : #ffff;
+  gap : 0;
+  transition : all 0.3s ease;
+  background-color: #273656;
+  transform : scaleY(0);
+  transform-origin: top;
+
+
+}
+
+
+.nav-bar > .nav-bar-nav > .nav-item {
+  margin : 0.3rem;
+  width : 90%;
+  text-align :center;
+  color : white;
+  background-color: #273656;
+}
+
+.nav-bar-nav.activated {
+  transform : scaleY(1);
+}
+
+.Nav-anchors {
+  background-color : #273656;
+}
+
+}

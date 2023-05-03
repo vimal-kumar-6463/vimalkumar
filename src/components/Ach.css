@@ -1,0 +1,74 @@
+.AchContainer {
+    height : 500px;
+    width : 400px;
+    background-color : #ffff;
+    display : flex ;
+    flex-direction: column;
+    justify-content : center;
+    align-items : center;
+    border : 3px solid #ffff;
+    font-family : "Dongle" , sans-serif;
+    font-size : 1.3rem;
+    color : #ffff;
+    position : relative;
+}
+
+.AchThumbNail {
+    height : 65%;
+    flex : 1;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.AchImg {
+    flex : 1;
+    height : 100%;
+    width : 100%;
+}
+
+.Content {
+    height : 35%;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    border-radius : 10px;
+}
+
+.AchHeader {
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    height : 35%;
+    width : 100%;
+    
+}
+
+.AchTitie{
+    height : 90%;
+}
+
+.AchDate {
+    background-color : #865DFF;
+    width : 20%;
+    border-radius : 50vh 0 50vh 50vh;
+    margin : 5px;
+}
+
+.AchDescription {
+    height : 75%;
+    background-color : grey;
+    margin : 5px;
+    border-radius : 5px;
+}
+
+.AchTitle , .AchDate , .AchDescription {
+    padding : 0 10px;
+}
+
+@media (max-width : 700px) {
+    .AchContainer {
+        transform : scale(.75);
+    }
+}

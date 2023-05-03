@@ -1,0 +1,50 @@
+.contactContainer {
+    width : 50%;
+    aspect-ratio: 16/9;
+    background-color : #B0A4A4;
+    display : flex;
+    flex-direction: column;
+    justify-content : space-evenly;
+    align-items : center;
+    font-family : 'Dongle' , sans-serif;
+    font-size : 2rem;
+    margin : 10px;
+}
+
+.contactEle {
+    width : 100%;
+    display : flex;
+    justify-content : space-evenly;
+    align-items : center;
+    background-color : inherit;
+    gap : 1rem;
+}
+
+
+.conIcon {
+    height : 50px;
+    width : 50px;
+    background-color : inherit;
+    
+}
+
+
+.contactEle > p {
+    background-color : inherit;
+    color : #565656;
+}
+
+
+@media (max-width : 800px) {
+    .contactContainer {
+        width : 85%;
+    }
+
+    .conIcon {
+        flex : 1;
+    }
+
+    .contactEle > p {
+        flex : 4;
+    }
+}

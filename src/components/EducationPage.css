@@ -1,0 +1,52 @@
+* , *::after , *::before {
+    box-sizing: border-box;
+    padding : 0;
+    margin : 0;
+}
+
+.ultiContainer {
+    width : 95vw;
+    height : 100vh;
+    display : flex;
+    justify-content : center;
+    align-items : flex-start;
+    gap : 0.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    transform : scale(.9);
+}
+
+.eduHeading , .expHeading{
+    color : #ffff;
+    text-align : center;
+
+}
+
+.eduDetails , .expDetails{
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    gap: 0.5rem;
+
+}
+
+.line {
+    height : 90%;
+    width : 2px;
+    background-color : #ffff;
+}
+
+@media (max-width : 1080px) {
+    .ultiContainer {
+        height : 100%;
+        flex-direction: column;
+        transform : scale(0.7);
+    }
+
+
+    .line {
+        height : 0;
+        width : 0;
+    }
+
+}

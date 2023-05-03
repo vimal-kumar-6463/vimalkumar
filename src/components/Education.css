@@ -1,0 +1,60 @@
+* , *::before , *::after {
+    box-sizing : border-box;
+    padding : 0;
+    margin : 0;
+}
+
+.EduContainer {
+    height : 12.5rem;
+    width : 31.25rem;
+    display : flex ;
+    flex-direction: column;
+    justify-content : space-between;
+    align-items : flex-start;
+    font-size : .7rem;
+    padding : 10px;
+    color : white;
+}
+
+.title {
+    font-size : 1.3rem;
+    color : #865DFF;
+  
+}
+
+.wraper {
+    height : 80%;
+    width : 100%;
+    font-size : 1rem; 
+    display : flex;
+    flex-direction : column;
+    justify-content : flex-start;
+    align-items : flex-start; 
+    gap : 1.5rem;
+    border : 3px solid #ffff;
+    border-radius : 10px;
+}
+
+.text {
+    padding : 5px 10px;
+}
+
+.innerWraper {
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items : flex-start;
+    border-radius : 10px;
+    padding : 0 10px;
+}
+
+.date {
+    background-color : #865DFF;
+    border-radius : 50vh 5vh 50vh 50vh
+}
+
+
+.description {
+    padding : 0 20px;
+    font-size : 1rem;
+}

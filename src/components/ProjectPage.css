@@ -1,0 +1,49 @@
+* , *::before , *::after {
+    box-sizing: border-box;
+    padding : 0;
+    margin : 0;
+}
+
+.ultiAllProjects{
+    height : 90vh;
+    width : 100vw;
+    display : flex ;
+    flex-direction : column;
+    justify-content : flex-end;
+    gap : 0rem;
+    align-items : center;
+    color : #ffff;
+    font-family : 'Dongle' , sans-serif;
+    font-size : 2rem;
+    text-align : center;
+}
+
+.topGap {
+    height : 10vh;
+    width : 100vw;
+}
+
+.ProTitle {
+    height : 10%;
+    display : grid;
+    place-items : center;
+}
+
+
+.allProjects {
+    height : 80%;
+    width : 80%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    gap : 0rem;
+    flex-wrap :wrap;
+}
+
+@media (max-width : 1000px){
+    .ultiAllProjects {
+        height : 100%;
+        margin-top : 200px;
+    }
+}
+

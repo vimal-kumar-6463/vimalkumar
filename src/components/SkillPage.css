@@ -1,0 +1,38 @@
+.ultiAllSkills{
+    height : 100vh;
+    width : 100vw;
+    display : flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items : center;
+    font-family : 'Dongle' , sans-serif;
+    font-size : 2rem;
+}
+
+.skillTitle {
+    height : 15%;
+    color : #ffff;
+    text-align : center;
+    display : grid;
+    place-items : center;
+    margin : 10px;
+}
+
+
+.allSkills {
+    height : 85%;
+    width : 80%;
+    display : flex ;
+    justify-content : center;
+    align-items : center;
+    flex-wrap : wrap;
+    gap : 1rem;
+    margin : 10px;
+}
+
+
+@media (max-width : 1000px){
+    .ultiAllSkills{
+        height : 100%;
+    }
+}

@@ -1,0 +1,54 @@
+.SocialMediaContainer {
+    height : 30% ;
+    width : 40% ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    gap : 1rem;
+}
+
+.LinkedinSO ,.GitHubSO ,.InstagramSO ,.LeetcodeSO{
+    height : 50px;
+    width : 50px;
+    cursor : pointer;
+    transition : all 0.3s ease-in-out;
+
+}
+
+.LinkedinSO {
+    color : #0072b1;
+}
+
+.LinkedinSO:hover {
+    transform : translateY(-5px);
+}
+
+
+
+.GitHubSO {
+    color : #ffff;
+}
+
+.GitHubSO:hover {
+    transform : translateY(-5px);
+}
+
+
+
+.InstagramSO {
+    color : #FF5F9E;
+}
+
+.InstagramSO:hover {
+    transform : translateY(-5px);
+}
+
+
+
+.LeetcodeSO{
+    color : #F7D060;
+}
+
+.LeetcodeSO:hover {
+    transform : translateY(-5px);
+}

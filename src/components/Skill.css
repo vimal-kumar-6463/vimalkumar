@@ -1,0 +1,46 @@
+.skillBox , .starBox ,.star , .skillIcon ,.iconWrap{
+    background-color : #865DFF;
+}
+
+.skillBox {
+    height : 80px;
+    width : 300px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    border : 3px solid #ffff;
+    border-radius : 10px ;
+
+}
+
+.iconWrap {
+    height : 100%;
+    flex : 1.5;
+    display : grid ;
+    place-items : center;
+    border-radius : 10px ;
+
+}
+
+.skillIcon {
+    height : 80%;
+    width : 80%;
+    margin : 10px;
+    color : #ffff;
+}
+
+.starBox{
+    height : 100%;
+    flex : 5;
+    display : flex ;
+    justify-content : center ;
+    align-items : center;
+    border-radius : 10px ;
+
+}
+
+.star {
+    height : 80% ;
+    width : 15%;
+    color : #FFEEB3;
+}

@@ -1,0 +1,14 @@
+.ultiAllContacts {
+    height : 90vh;
+    width : 100vw;
+    margin-top : 10vh;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+}
+
+@media (max-width : 700px) {
+    .ultiAllContacts {
+        height : 90%;
+    }
+}
