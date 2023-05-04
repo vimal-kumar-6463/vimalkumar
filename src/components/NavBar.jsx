@@ -29,7 +29,8 @@ function NavBar(props) {
         <li className="nav-item"><a href="#home" className="Nav-anchors">{props.home}</a></li>
         <li className="nav-item"><a href="#about" className="Nav-anchors">{props.about}</a></li>
         <li className="nav-item"><a href="#skills" className="Nav-anchors">{props.skills}</a></li>
-        <li className="nav-item"><a href="#blog" className="Nav-anchors">{props.blog}</a></li>
+        <li className="nav-item"><a href="#projects" className="Nav-anchors">{props.projects}</a></li>
+        <li className="nav-item"><a href="#achievements" className="Nav-anchors">{props.achievements}</a></li>
     </ul>
     </nav>
       </header>

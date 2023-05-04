@@ -57,14 +57,6 @@ const educations = [
     {
       title : "Ping-Pong Game",
       description : "Just the ping-pong game using python(turtle)"
-    },
-    {
-      title : "Ping-Pong Game",
-      description : "Just the ping-pong game using python(turtle)"
-    },
-    {
-      title : "Ping-Pong Game",
-      description : "Just the ping-pong game using python(turtle)"
     }
   ]
   
@@ -128,9 +120,15 @@ const educations = [
     }
   ]
 
+  const email = "vimalkumar6463@gmail.com"
 
-export {educations } ;
+  const phoneNo = "+91 9087154145"
+
+
+export {educations} ;
 export {projects} ;
 export {skills} ;
 export {achievements} ;
 export {experience};
+export {email};
+export {phoneNo};

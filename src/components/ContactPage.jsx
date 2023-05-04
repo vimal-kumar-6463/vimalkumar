@@ -7,7 +7,7 @@ function ContactPage (props) {
 
     return (
         <div className="ultiAllContacts">
-            <ContactMe email="vimalkumar6463@gmail.com" phoneNo="+91 XXXXXXXXXX" />
+            <ContactMe email={props.email} phoneNo={props.phoneNo} />
         </div>
     )
 }

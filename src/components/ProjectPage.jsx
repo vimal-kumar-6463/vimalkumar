@@ -6,7 +6,7 @@ import "./ProjectPage.css"
 function ProjectPage (props) {
     
     return (
-            <div className="ultiAllProjects" id="blog">
+            <div className="ultiAllProjects" id="projects">
                 <div className="topGap"></div>
                 <h2 className="ProTitle">PROJECTS</h2>
                 <div className="allProjects">

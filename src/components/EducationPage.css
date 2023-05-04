@@ -5,6 +5,7 @@
 }
 
 .ultiContainer {
+    margin-top : 10vh;
     width : 95vw;
     height : 100vh;
     display : flex;

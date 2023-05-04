@@ -9,14 +9,14 @@ import ProjectPage from "./components/ProjectPage.jsx";
 import SkillPage from './components/SkillPage.jsx';
 import AchPage from "./components/AchPage.jsx";
 import ContactPage from "./components/ContactPage.jsx";
-import {skills , achievements , projects , educations ,experience} from "../src/data.jsx";
+import {skills , achievements , projects , educations ,experience , email , phoneNo} from "../src/data.jsx";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
  <>
-                <NavBar logo="LOGO" home="HOME" about="ABOUT" skills="SKILLS" blog="BLOG"  />
+                <NavBar logo="LOGO" home="HOME" about="ABOUT" skills="SKILLS" projects="PROJECTS" achievements="ACHIEVEMENTS" />
                 <Profile name="Vimal Kumar" jobProfile="Aspiring Full Stack Dev & Machine Learning Engineer"/>
                 <Bio name="Vimal Kumar" jobProfile="Full Stack Dev & Machine Learning Engineer" bioData="I am Vimal Kumar , A 2nd Year B.Tech undergraduate student in the
                                                                                                          major of Computer Science and Engineering with specialization of Artificial 
@@ -31,7 +31,7 @@ root.render(
                 <div className="gap" ></div>
                 <AchPage Achs={achievements}/>
                 <div className="gap" ></div>
-                <ContactPage/>
+                <ContactPage email={email} phoneNo={phoneNo}/>
 
 </>
   </React.StrictMode>
