@@ -50,7 +50,8 @@
 
 .date {
     background-color : #865DFF;
-    border-radius : 50vh 5vh 50vh 50vh
+    border-radius : 50vh 5vh 50vh 50vh;
+    font-family : impact;
 }
 
 

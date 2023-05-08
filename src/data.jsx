@@ -43,8 +43,8 @@ const educations = [
   
   const projects = [
     {
-      title : "calculator",
-      description : "calculator using javaScript/Python"
+      title : "To-Do List Mobile App",
+      description : "To-Do app using react-native"
     },
     {
       title : "Result/Hallticket Dist",
@@ -52,7 +52,7 @@ const educations = [
     },
     {
       title : "Snake Game",
-      description : "Just the Snake Game using python"
+      description : "Just the Snake Game using python(turtle)"
     },
     {
       title : "Ping-Pong Game",
