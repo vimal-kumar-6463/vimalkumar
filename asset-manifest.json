@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/vimalkumar/static/css/main.44010d5f.css",
+    "main.js": "/vimalkumar/static/js/main.7823dc67.js",
+    "static/media/srikrishna.jpg": "/vimalkumar/static/media/srikrishna.9e61490942fd2c07d1ed.jpg",
+    "static/media/bitshack.jpg": "/vimalkumar/static/media/bitshack.624847496927c21c273e.jpg",
+    "static/media/profileimg.jpg": "/vimalkumar/static/media/profileimg.be3af6706dc37c79a49e.jpg",
+    "static/media/Resume.pdf": "/vimalkumar/static/media/Resume.f8b1c0434adf164bdb79.pdf",
+    "static/media/ToDo_app_IMG.jpg": "/vimalkumar/static/media/ToDo_app_IMG.67a4ef8235103cbf22d3.jpg",
+    "static/media/hallticketPage.png": "/vimalkumar/static/media/hallticketPage.7d04dae1912cab88ef84.png",
+    "static/media/pingpongGameIMG.png": "/vimalkumar/static/media/pingpongGameIMG.a97e2aea5e49497cc877.png",
+    "index.html": "/vimalkumar/index.html",
+    "main.44010d5f.css.map": "/vimalkumar/static/css/main.44010d5f.css.map",
+    "main.7823dc67.js.map": "/vimalkumar/static/js/main.7823dc67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44010d5f.css",
+    "static/js/main.7823dc67.js"
+  ]
+}
