@@ -5,12 +5,7 @@
   background-color: #111827;
 }
 
-body {
-  display : flex;
-  justify-content: flex-start;
-  align-items : flex-start;
-  overflow-x: hidden;
-}
+
 
 html {
   scroll-behavior: smooth;
