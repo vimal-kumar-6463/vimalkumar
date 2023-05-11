@@ -5,6 +5,12 @@
   background-color: #111827;
 }
 
+body {
+  display : flex;
+  justify-content: flex-start;
+  align-items : flex-start;
+  overflow-x: hidden;
+}
 
 html {
   scroll-behavior: smooth;
@@ -12,7 +18,7 @@ html {
 
 .nav-bar {
   height : 10vh;
-  width : 95vw;
+  width : 100%;
   margin : auto;
   display : flex ;
   justify-content: space-around;
@@ -23,8 +29,9 @@ html {
   top : 0;
   left : 0;
   right : 0;
-  background-color: #111827;
+  background-color: #111827; 
   z-index : 100;
+  margin : auto;
 }
 
 .logo {
