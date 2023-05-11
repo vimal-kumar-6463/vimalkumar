@@ -5,7 +5,9 @@
   background-color: #111827;
 }
 
-
+body {
+  overflow-x: hidden;
+}
 
 html {
   scroll-behavior: smooth;
