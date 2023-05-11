@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vimalkumar/static/css/main.44010d5f.css",
+    "main.css": "/vimalkumar/static/css/main.87185246.css",
     "main.js": "/vimalkumar/static/js/main.7823dc67.js",
     "static/media/srikrishna.jpg": "/vimalkumar/static/media/srikrishna.9e61490942fd2c07d1ed.jpg",
     "static/media/bitshack.jpg": "/vimalkumar/static/media/bitshack.624847496927c21c273e.jpg",
@@ -10,11 +10,11 @@
     "static/media/hallticketPage.png": "/vimalkumar/static/media/hallticketPage.7d04dae1912cab88ef84.png",
     "static/media/pingpongGameIMG.png": "/vimalkumar/static/media/pingpongGameIMG.a97e2aea5e49497cc877.png",
     "index.html": "/vimalkumar/index.html",
-    "main.44010d5f.css.map": "/vimalkumar/static/css/main.44010d5f.css.map",
+    "main.87185246.css.map": "/vimalkumar/static/css/main.87185246.css.map",
     "main.7823dc67.js.map": "/vimalkumar/static/js/main.7823dc67.js.map"
   },
   "entrypoints": [
-    "static/css/main.44010d5f.css",
+    "static/css/main.87185246.css",
     "static/js/main.7823dc67.js"
   ]
 }
