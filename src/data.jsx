@@ -5,6 +5,8 @@ import {SiJavascript} from "react-icons/si";
 import {CgFigma} from "react-icons/cg"
 import {TbSql} from "react-icons/tb";
 import { SiDjango , SiMongodb } from "react-icons/si";
+import hallticketPage from './assets/hallticketPage.png';
+
 
 const educations = [
     {
@@ -44,19 +46,27 @@ const educations = [
   const projects = [
     {
       title : "To-Do List Mobile App",
+      thumbNail : require("./assets/ToDo_app_IMG.jpg"),
+      gitHUBLink : "https://github.com/vimal-kumar-6463/Ping_Pong_Game---Python",
       description : "To-Do app using react-native"
     },
     {
       title : "Result/Hallticket Dist",
+      thumbNail :  require("./assets/hallticketPage.png"),
+      gitHUBLink : "https://github.com/vimal-kumar-6463/Ping_Pong_Game---Python",
       description : "A web app it declare exam results"
     },
     {
       title : "Snake Game",
-      description : "Just the Snake Game using python(turtle)"
+      thumbNail : require("./assets/snakeGameIMG.png"),
+      gitHUBLink : "https://github.com/vimal-kumar-6463/Snake-Game---Python",
+      description : "Just the Snake Game using python(turtle graphics)"
     },
     {
       title : "Ping-Pong Game",
-      description : "Just the ping-pong game using python(turtle)"
+      thumbNail : require("./assets/pingpongGameIMG.png"),
+      gitHUBLink : "https://github.com/vimal-kumar-6463/Ping_Pong_Game---Python",
+      description : "Just the ping-pong game using python(turtle graphics)"
     }
   ]
   

@@ -9,6 +9,7 @@ import ProjectPage from "./components/ProjectPage.jsx";
 import SkillPage from './components/SkillPage.jsx';
 import AchPage from "./components/AchPage.jsx";
 import ContactPage from "./components/ContactPage.jsx";
+import resume from "./assets/Resume.pdf";
 import {skills , achievements , projects , educations ,experience , email , phoneNo} from "../src/data.jsx";
 
 
@@ -18,7 +19,7 @@ root.render(
  <>
                 <NavBar logo="LOGO" home="HOME" about="ABOUT" skills="SKILLS" projects="PROJECTS" achievements="ACHIEVEMENTS" />
                 <Profile name="Vimal Kumar" jobProfile="Aspiring Full Stack Dev & Machine Learning Engineer"/>
-                <Bio name="Vimal Kumar" jobProfile="Full Stack Dev & Machine Learning Engineer" bioData="I am Vimal Kumar , A 2nd Year B.Tech undergraduate student in the
+                <Bio name="Vimal Kumar" resume={resume} jobProfile="Full Stack Dev & Machine Learning Engineer" bioData="I am Vimal Kumar , A 2nd Year B.Tech undergraduate student in the
                                                                                                          major of Computer Science and Engineering with specialization of Artificial 
                                                                                                          Intelligence & Machine Learning"/>
                 <div className="gap" ></div>

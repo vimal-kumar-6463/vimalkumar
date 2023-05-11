@@ -10,7 +10,8 @@ function ProjectPage (props) {
                 <div className="topGap"></div>
                 <h2 className="ProTitle">PROJECTS</h2>
                 <div className="allProjects">
-                    {props.projects.map((x , index) => <Project key={index} title={x.title} description={x.description} />)}
+                    {props.projects.map((x , index) => <Project key={index} title={x.title} thumbNail={x.thumbNail} description={x.description} 
+                                                        gitHUBLink={x.gitHUBLink}/>)}
                 </div>
             </div>
 

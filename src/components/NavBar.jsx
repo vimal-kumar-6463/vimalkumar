@@ -6,6 +6,7 @@ import {GiMonkey} from "react-icons/gi";
 import Menu from "../assets/menu.png";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
+import LogoIcon from "../assets/IconPic.png"
 
 
 function NavBar(props) {
@@ -23,7 +24,7 @@ function NavBar(props) {
     <div className="App" id="home" >
       <header className="App-header">
       <nav class="nav-bar">
-    <GiMonkey className="logo" />
+    <a href="#home"><img src={require("../assets/IconPic.png")} className="logo" /></a>
     {isClosed?<GiHamburgerMenu className="menu" onClick={handleMenu} />:<MdClose className="menu" onClick={handleMenu} />}
     <ul class={(isActivated)?"nav-bar-nav activated":"nav-bar-nav"}>
         <li className="nav-item"><a href="#home" className="Nav-anchors">{props.home}</a></li>

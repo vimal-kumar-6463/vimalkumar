@@ -20,7 +20,7 @@ function Bio (props) {
                         <h5 className="jobProfile" >{props.jobProfile}</h5>
                     </div>
                     <p className="bioData" >{props.bioData}</p>
-                    <a href="C:\Users\vimal\OneDrive\Desktop\sample\sample\src\assets\srikrishna.jpg" className="CV-Download" >Download CV</a>
+                    <a href={props.resume} target="_blank" className="CV-Download" >Download CV</a>
                 </div>
             </div>
 
